@@ -1,21 +1,13 @@
 {
-  "name": "papa-node-hello-000",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
-  },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+ "name": "node-app",
+ "description": "hello jenkins test app",
+ "version": "0.0.1",
+ "private": true,
+ "dependencies": {
+    "express": "3.12.0"
+ },
+ "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+ }
 }
