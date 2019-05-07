@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh root@10.199.199.105 <<EOF
+ cd /opt/node-app
+ git pull
+ npm install --production
+ nohup node index.js
+ exit
+EOF
