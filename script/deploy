@@ -3,6 +3,6 @@ ssh root@10.199.199.105 <<EOF
  cd /opt/node-hello
  git pull
  npm install --production
- nohup node index.js
+ pm2 restart all
  exit
 EOF
